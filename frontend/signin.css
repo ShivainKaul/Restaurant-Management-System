@@ -136,6 +136,20 @@ label{
   width: 265px;
   margin-top: 5px;
 }
+#pname_logo{
+  margin-right : 4px;
+}
+#mail_logo{
+  margin-right : 4px;
+}
+.ename{
+  display : flex;
+  flex-direction : row;
+}
+.pname{
+  display : flex;
+  flex-direction : row;
+}
 .pmail{
   margin-left: 100px;
   margin-top: 30px;
