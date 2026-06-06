@@ -1,0 +1,260 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  color: rgb(30, 30, 36);
+}
+input{
+  background-color: rgb(243, 243, 245);
+  border: 1px solid rgb(218, 218, 220);
+  border-radius: 7px;
+  height: 35px;
+  width: 550px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+select{
+  padding-left: 10px;
+  background-color: rgb(243, 243, 245);
+  border: 1px solid rgb(218, 218, 220);
+  border-radius: 7px;
+  height: 35px;
+  width: 560px;
+  margin-top: 15px;
+}
+.image{
+  background-color: black;
+  margin-left: 55px;
+  margin-top: 200px;
+  height: 350px;
+  width: 80%;
+  border-radius: 20px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 20px;
+}
+label{
+  font-weight: bold;
+}
+.signin{
+  display: flex;
+  height: 1500px;
+  background-color: rgb(255, 248, 240);
+
+}
+.create{
+  margin-left: 75px;
+}
+.msg{
+  margin-left: 75px;
+}
+.brand{
+  background-color: rgba(146, 20, 12,0.8);
+  width: 45%;
+}
+.bsection input{
+  margin-top: 5px;
+}
+
+.sign_section{
+  background-color: rgb(238, 218, 179);
+  width: 120vh;
+  height: 1500px;
+  
+}
+
+.create{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.msg{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.busi_info{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+.busi_info_text{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.busi_name{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+.rest_type{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.no_loc{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+.owner_info{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.owner_info_text{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.full_name{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.emsection input{
+  width: 265px;
+  margin-top: 5px;
+}
+
+.phsection input{
+  width: 265px;
+  margin-top: 5px;
+}
+.pmail{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 0px;
+}
+.busi_loc{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.busi_loc_name{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.street_add{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.cszip{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.citysection input{
+  width: 170px;
+}
+
+.statesection input{
+  width: 170px;
+}
+
+.zipsection input{
+  width: 170px;
+}
+
+.security{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.security_name{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.password{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+.cnfpassword{
+  margin-left: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.agreecheck{
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(243, 243, 245);
+  border: 1px solid rgb(218, 218, 220);
+  border-radius: 7px;
+  height: 45px;
+  width: 560px;
+  margin-top: 15px;
+}
+#check{
+  width: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+  margin-bottom: 15px;
+}
+.agreemsg{
+  display: flex;
+  align-items: center;
+  
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 560px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(30, 30, 36);
+  margin-left: 100px;
+  border: 1px solid rgb(30, 30, 36);
+  border-radius: 7px;
+}
+
+.already{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 560px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
