@@ -43,7 +43,7 @@ main {
   border-radius: 12px;
   padding: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 35vw;
   aspect-ratio : 16 / 9;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.1); 
@@ -175,13 +175,14 @@ input:focus, select:focus {
   padding: 4px;
 }
 
-#reveal:hover {
+#reveal:hover , #reveal:focus-within {
+  outline : none;
   color: var(--red);
 }
 
 #reveal svg {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 #check_col {
