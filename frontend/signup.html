@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="./signup.css">
     <title> Sign UP</title>
   </head>
   <body>
     <main>
-      <section id="logo_side">
-        <div id="img_rect">
+      <section id="logo_side" class="logoside">
+        <div id="img_rect" class="logobox">
           <img src="./assets/balochlogo.png" alt="OUR LOGO">
         </div>
       </section>
       <section id="form_side">
-        <h1>CREATE YOUR ACCOUNT</h1>
-        <p>Start managing food outlets today</p>
+        <div class="card">
+          <h1>CREATE YOUR ACCOUNT</h1>
+          <p>Start managing food outlets today</p>
+        </div>
         <form>
           <!--- Business info -->
-          <div id="b_info" >
+          <div id="b_info" class="card">
             <div id="b_info_head" class="section_header">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7" ></path> <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path> <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path> <path d="M2 7h20"></path> <path d="M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7" ></path> </svg>
               <h3>Business Information</h3>
@@ -41,7 +44,7 @@
             </div>
           </div>
           <!-- Owner information -->
-          <div id="owner_info">
+          <div id="owner_info" class="card">
             <div id="o_info_head" class="section_header">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path> <circle cx="12" cy="7" r="4"></circle> </svg>
               <h3>Owner Information</h3>
@@ -57,19 +60,19 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" ></path> </svg>
                   Email
                 </label>
-                <input type="text" id="email" required>
+                <input type="email" id="email" required>
               </div>
               <div class="input_field">
                 <label for="phone_no">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" ></path> </svg>
                   Phone No
                 </label>
-                <input id="phone_no" required>
+                <input id="phone_no" type="tel" required>
               </div>
             </div>
           </div>
           <!---Business Location-->
-          <div id="business_loc">
+          <div id="business_loc" class="card">
             <div id="bloc_head" class="section_header">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" ></path> <circle cx="12" cy="10" r="3"></circle> </svg>
               <h3>Business Location</h3>
@@ -94,7 +97,7 @@
             </div>
           </div>
           <!---security information-->
-          <div id="security_info">
+          <div id="security_info" class="card">
             <div id="sec_head" class="section_header">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect> <path d="M7 11V7a5 5 0 0 1 10 0v4"></path> </svg>
               <h3>Security</h3>
@@ -109,7 +112,7 @@
             </div>
             <div class="input_field">
               <label for="cnf_passwd">Confirm Password</label>
-              <div id="cnf_pass_col">
+              <div id="cnf_pass_col" class="password-wrapper">
                 <input id="cnf_passwd" type="password" required>
 
                 <button type="button" id="reveal">
@@ -123,7 +126,7 @@
               <label for="agree_check">I agree to the Terms of Services and Privacy Policy</label>
             </div>
           </div>
-          <button>Create Account</button>
+          <button id="submit" class="btn-main">Create Account</button>
         </form>
         <p>Already have an account? <a href="./login.html">Log in</a></p>
       </section>

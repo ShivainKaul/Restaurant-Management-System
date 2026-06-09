@@ -1,17 +1,3 @@
-:root {
-  --grey: #1e1e24;
-  --red: #92140c;
-  --cream: #fff8f0;
-  --yellow: #ffcf99;
-  --pink: #b36b81;
-}
-
-*{
-  padding: 0px;
-  margin: 0px;
-  font-family: sans-serif;
-}
-
 main{
   display: flex;
   flex-direction : row;
@@ -20,142 +6,34 @@ main{
 form{
   display : flex;
   flex-direction : column;
-}
-
-.logobox{
-  display : flex;
-  flex-direction : column;
-  overflow : hidden;
-  justify-content : center;
-  align-items : center;
-  border-radius: 20px;
-  max-width : 35vw;
-  padding : 20px;
-  aspect-ratio : 16 / 9;
-  background: rgba(255 , 255 ,255 , 0.1);
-}
-.logobox img{
+  gap : 16px;
   width : 100%;
-  height : 100%;
-  border-radius : 12px;
-  object-fit : cover;
-}
-#leftbrandside{
-  min-width: 40vw;
-  display : flex;
-  flex-direction : column;
-  flex : 1 1 40%;
-  background: var(--red);
-  justify-content : center;
-  align-items : center;
 }
 
 #loginsection{
-  height: 100vh;
-  width: 140vw;
+  flex: 1 1 60%;
   background : var(--yellow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loginbox{
   display : flex;
-  flex-direction : column;
   align-items : center;
   justify-content : center;
-  background: var(--cream);
-  border-radius: 20px;
-  border-bottom : 6px solid var(--yellow);
-  box-shadow : 0 6px 12px rgba(0 , 0 , 0 , 0.5);
+  height : 100vh;
 }
 
-#hello{
-  margin-left: 30px;
-  margin-top: 30px;
+#loginsection .card{
+  max-width : 450px;
+  width : 100%;
+}
+#loginsection h1,#loginsection p{
+  text-align : center;
+  margin : 0px;
 }
 
-#signinmsg{
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-#uname{
-  margin-top: 40px;
-  margin-left: 30px;
-  width: 300px;
-  height: 50px;
-  border-radius: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 15px;
-  background-color: rgb(243, 243, 245);
-  border: 1px solid rgb(218, 218, 220);
-
-}
-#passwd_col{
-  display : flex ;
-  flex-direction : row;
-  margin-top: 20px;
-  margin-left: 30px;
-  width: 300px;
-  height: 50px;
-  border-radius: 30px;
-  padding-left: 15px;
-  border: 1px solid rgb(218, 218, 220);
-}
-
-#reveal {
-  margin-left : 35px;
-  margin-top : 4px;
-  color : #888;
-  outline : none;
-  border : none;
-}
-#reveal:hover , #reveal:focus-within{
-  color : var(--red);
-  outline : none;
-}
-#reveal svg{
-  width : 30px;
-  height : 30px;
-}
-
-input{
-  font-size: 15px;
-  background-color: rgb(243, 243, 245);
-  outline : none;
-  border : none;
-}
-
-
-
-#submit{
-  margin-top: 20px;
-  margin-left: 30px;
-  height: 50px;
-  width: 315px;
-  border-radius: 30px;
-  color: white;
-  background: rgb(30, 30, 36,0.9);;
-  border: 1px solid rgb(218, 218, 220);
-  font-size: 16px;
-}
-
-#forget_password{
-  margin-top : 20px;
-}
 #forgot{
   text-decoration: none;
   color : var(--grey);
-  margin-left: 30px;
-  margin-top : 20px;
 }
 
 #dontmsg{
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-bottom : 15px;
   padding-right : 15px;
   color : var(--grey);
 }

@@ -28,36 +28,8 @@ main {
   flex-wrap: wrap;
 }
 
-#logo_side {
-  background: var(--red);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  flex: 1 1 40%; 
-  min-width: 300px;
-}
-
-#img_rect {
-  border-radius: 12px;
-  padding: 20px;
-  width: 100%;
-  max-width: 35vw;
-  aspect-ratio : 16 / 9;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.1); 
-}
-
-#img_rect img {
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  object-fit: cover; 
-}
-
 #form_side {
-  background: var(--cream); 
+  background: var(--yellow); 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,17 +58,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
-
-form > div[id] {
-  background: white;
-  padding: 24px;
-  border-radius: 12px;
-  border-bottom: 4px solid var(--yellow);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .section_header {
@@ -130,22 +91,6 @@ form > div[id] {
   color: var(--pink);
 }
 
-input, select {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background: #fafafa;
-  padding: 10px 12px;
-  font-size: 1rem;
-  color: var(--grey);
-  transition: all 0.2s ease;
-}
-
-input:focus, select:focus {
-  outline: none;
-  border-color: var(--red);
-  background: white;
-  box-shadow: 0 0 0 3px rgba(146, 20, 12, 0.15); 
-}
 
 #contact_info, #address_details {
   display: grid;
@@ -153,41 +98,8 @@ input:focus, select:focus {
   gap: 16px;
 }
 
-#cnf_pass_col {
-  display: flex;
-  position: relative;
-}
-
-#cnf_pass_col input {
-  width: 100%;
-  padding-right: 40px; 
-}
-
-#reveal {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #888;
-  padding: 4px;
-}
-
-#reveal:hover , #reveal:focus-within {
-  outline : none;
-  color: var(--red);
-}
-
-#reveal svg {
-  width: 30px;
-  height: 30px;
-}
-
 #check_col {
   display: flex;
-  align-items: center;
   gap: 12px;
   margin-top: 8px;
 }
